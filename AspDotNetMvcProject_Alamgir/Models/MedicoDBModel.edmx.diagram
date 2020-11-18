@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="df4f09d32bf64dc79b5907d98a4e6c25" Name="Diagram1">
+        <EntityTypeShape EntityType="AspDotNetMvcProject_AlamgirModel.Department" Width="1.5" PointX="0.75" PointY="5" IsExpanded="true" />
+        <EntityTypeShape EntityType="AspDotNetMvcProject_AlamgirModel.Doctor" Width="1.5" PointX="3" PointY="1.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="AspDotNetMvcProject_AlamgirModel.Employee" Width="1.5" PointX="3" PointY="4.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="AspDotNetMvcProject_AlamgirModel.Patient" Width="1.5" PointX="3" PointY="7.875" IsExpanded="true" />
+        <AssociationConnector Association="AspDotNetMvcProject_AlamgirModel.FK__Doctor__Departme__49C3F6B7" ManuallyRouted="false" />
+        <AssociationConnector Association="AspDotNetMvcProject_AlamgirModel.FK__Employee__Depart__4CA06362" ManuallyRouted="false" />
+        <AssociationConnector Association="AspDotNetMvcProject_AlamgirModel.FK__Patient__Departm__4F7CD00D" ManuallyRouted="false" />
+        <AssociationConnector Association="AspDotNetMvcProject_AlamgirModel.FK_Department" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
